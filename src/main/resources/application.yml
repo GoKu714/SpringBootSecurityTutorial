@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  
+spring:
+   datasource:
+     url: jdbc:mysql://localhost:3306/user_registration
+     username: root
+     password: MyNewPass
+     driver-class-name: com.mysql.cj.jdbc.Driver
+   jpa:
+     show-sql: true
+     hiberate:
+        ddl-auto: update
+        
+   mail:
+     host: smtp.gmail.com
+     port: 587
+     username: vikramdhoke714@gmail.com
+     password: dwpo fmxb rlwv nxbn
+     properties:
+       mail:
+         smtp:
+           auth: true
+           starttls:
+             enable: true
